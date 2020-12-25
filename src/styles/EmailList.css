@@ -1,0 +1,24 @@
+.emailList {
+  flex: 1;
+  overflow: scroll;
+}
+
+.emailList__settings {
+  display: flex;
+  top: 0;
+  position: sticky;
+  justify-content: space-between;
+  background-color: white;
+  z-index: 10;
+  padding-right: 8px;
+}
+
+.emailList__settings-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emailList__settings-left > .MuiSvgIcon-root {
+  color: gray;
+}

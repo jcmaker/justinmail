@@ -4,6 +4,9 @@
 @import "Sidebar.css";
 @import "SidebarOption.css";
 
+@import "EmailList.css";
+@import "Mail.css";
+
 * {
   margin: 0;
 }
